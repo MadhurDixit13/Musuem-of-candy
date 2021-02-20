@@ -1,0 +1,80 @@
+body{
+    background: #f5d9df;
+    font-family: "Nunito",sans-serif;
+}
+#mainnavbar .navbar-brand{
+    color: #370617;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#navbarSupportedContent .navitems{
+    color: #723c70;
+}
+#navbarSupportedContent .navitems:hover
+{
+    /* background: linear-gradient(to right, rgba(102, 126, 234, 1), rgba(118, 75, 162, 1)); */
+    color: #6a040f;
+    font-size: 1.5rem;
+}
+#mainnavbar .navicon
+{
+    background-color:#723c70 ;
+    
+}
+#1 .imag{
+    background-color: #61a5c2;
+}
+#1 .imag{
+    background-color:palevioletred;
+}
+#headinggroup h1
+{
+ font-weight: 100;
+ font-size:4rem;
+}
+#headinggroup span
+{
+    color: red;
+}
+#headinggroup h1:hover
+{
+ /* background-image: radial-gradient( circle 824px at 17% -5.8%, rgba(255,186,201,1) 0%, rgba(238,163,94,1) 100.1% ); */
+ -webkit-background-clip: text;
+ -webkit-text-fill-color:transparent;
+ -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+ /* color:#ff4c68; */
+}
+.randomtext{
+    font-size: 2rem;
+    font-weight: 100;
+    color: white;
+}
+@media (max-width: 1200px)
+{
+    #headinggroup h1 {
+          font-size: 3rem;
+
+    };
+}
+.randomtext h2
+{
+ font-weight:100;
+ font-size:2.5rem;
+ color: red;
+}
+.randomtext p
+{
+    font-weight:100;
+    font-size:1.125rem;
+    color: #f498b8;
+    line-height: 2;
+}
+.content
+{
+    margin-top: 100px;
+}
+.navbar.scrolled
+{
+    background: rgb(222,192,222);
+}
